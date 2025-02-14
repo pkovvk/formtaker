@@ -1,0 +1,22 @@
+{
+    "lang": {
+        "ru": {
+            "novid": "Ваш бразуер не поддерживает видео.",
+            "index": {
+                "header": {
+                    "createForm": "Создать форму",
+                    "about": "О проекте"
+                }
+            }
+        },
+        "en": {
+            "novid": "Your browser does not support video.",
+            "index": {
+                "header": {
+                    "createForm": "Create form",
+                    "about": "About the project"
+                }
+            }
+        }
+    }
+}

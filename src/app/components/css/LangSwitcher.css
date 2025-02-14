@@ -1,0 +1,29 @@
+.lang-switcher {
+  border: solid white 1px;
+  border-radius: 8px;
+  width: 120px;
+  display: flex;
+  overflow: hidden;
+  font-size: large;
+  position: absolute;
+  right: 0;
+  height: 100%;
+}
+
+.lang-switcher button {
+  flex: 1;
+  outline: none;
+}
+
+.active {
+  background-color: white;
+  color: black;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .lang-switcher {
+    position: relative;
+    height: 50px;
+  }
+}

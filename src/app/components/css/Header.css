@@ -1,0 +1,72 @@
+.header {
+  display: flex;
+  height: 50px;
+  position: relative;
+}
+
+.logo-main {
+  width: 190px;
+  cursor: pointer;
+}
+
+hr {
+  margin-left: 15px;
+  margin-right: 20px;
+  border: none;
+  height: 2px; /* Толщина */
+  background-color: white; /* Цвет */
+  height: 100%;
+  width: 1;
+}
+
+.navbar {
+  height: 100%;
+  display: flex;
+}
+
+.nav-list {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-list li {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.navbar-btn {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  hr {
+    display: none;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .navbar-btn {
+    display: block;
+    position: absolute;
+    right: 0px;
+  }
+
+  .navbar-frombtn {
+    position: absolute;
+    right: 0;
+    top: 50px;
+    background-color: #171717;
+    border-radius: 15px;
+    height: fit-content;
+    width: 250px;
+  }
+
+  .navbar-frombtn li {
+    font-size: larger;
+    padding: 10px;
+    border-bottom: solid #0a0a0a 1px;
+  }
+}

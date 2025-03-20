@@ -1,5 +1,5 @@
 import "./css/LangSwitcher.css";
-import { Locales, LanguageData } from "@/app/interfaces/Locales";
+import { Locales, LanguageData } from "@/interfaces/Locales";
 
 export default function LangSwitcher({
   locales,

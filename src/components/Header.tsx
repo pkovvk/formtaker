@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { LanguageData, Locales } from "@/app/interfaces/Locales";
+import { LanguageData, Locales } from "@/interfaces/Locales";
 import LangSwitcher from "./LangSwitcher";
 
 export default function Header({
@@ -30,13 +30,13 @@ export default function Header({
       <nav className="navbar">
         <ul className="nav-list">
           <li>
-            <Link href="/create">{lang.index.header.createForm}</Link>
+            <Link href="/create">{lang.header.createForm}</Link>
           </li>
           <li>
             <Link href="/faq">FAQ</Link>
           </li>
           <li>
-            <Link href="/connect">{lang.index.header.about}</Link>
+            <Link href="/connect">{lang.header.about}</Link>
           </li>
         </ul>
         <LangSwitcher locales={locales} lang={lang} setLang={setLang} />
@@ -49,13 +49,13 @@ export default function Header({
           <nav className="navbar-frombtn">
             <ul className="nav-list-frombtn">
               <li>
-                <Link href="/create">{lang.index.header.createForm}</Link>
+                <Link href="/create">{lang.header.createForm}</Link>
               </li>
               <li>
                 <Link href="/faq">FAQ</Link>
               </li>
               <li>
-                <Link href="/connect">{lang.index.header.about}</Link>
+                <Link href="/connect">{lang.header.about}</Link>
               </li>
               <li>
                 <LangSwitcher locales={locales} lang={lang} setLang={setLang} />

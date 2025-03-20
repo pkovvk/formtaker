@@ -1,0 +1,34 @@
+{
+  "lang": {
+    "ru": {
+      "novid": "Ваш бразуер не поддерживает видео.",
+      "header": {
+        "createForm": "Создать форму",
+        "about": "О проекте"
+      },
+      "index": {
+        "codeWidget": {
+          "title": "Поиск по коду",
+          "description": "Введите 6-ти значный код формы и перейдите на ее страницу.",
+          "btn": "Ввести код",
+          "inputTitle": "Введите код"
+        }
+      }
+    },
+    "en": {
+      "novid": "Your browser does not support video.",
+      "header": {
+        "createForm": "Create form",
+        "about": "About the project"
+      },
+      "index": {
+        "codeWidget": {
+          "title": "Search by code",
+          "description": "Enter the 6-digit form code and go to its page.",
+          "btn": "Enter code",
+          "inputTitle": "Enter code"
+        }
+      }
+    }
+  }
+}

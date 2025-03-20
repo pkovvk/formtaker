@@ -1,6 +1,6 @@
 import "./css/Video.css";
 import { useEffect, useRef } from "react";
-import { LanguageData } from "@/app/interfaces/Locales";
+import { LanguageData } from "@/interfaces/Locales";
 
 export default function Video({ lang }: { lang: LanguageData }) {
   const videoRef = useRef<HTMLVideoElement>(null);
